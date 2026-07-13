@@ -11,7 +11,7 @@ class Member{
         this->balance=balance;
         pcount++;  //increment;
     }
-    Member(){
+    Member(){  ///we can also do using function 
         
         cout<<pcount<<endl;  //displaying pcount;
     }
