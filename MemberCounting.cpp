@@ -9,11 +9,11 @@ class Member{
     Member(string name,int balance){
         this->name=name;
         this->balance=balance;
-        pcount++;
+        pcount++;  //increment;
     }
     Member(){
         
-        cout<<pcount<<endl;
+        cout<<pcount<<endl;  //displaying pcount;
     }
 
 };
@@ -23,15 +23,10 @@ int Member::pcount=0;
 int main(){
     
     
-    // int n;
-    // cout<<"Enter the members:\n";
-    // cin>>n;
-    // Member m[n]={
-    //     Member("shishir",10000),
-    //     Member("shrestha",1000)
-    // };
+
     Member("shishir",100000);
     Member("stha",22222);
-    Member m;
+    Member m; //making object which automatically calls the default constructor 
+    //we must declare it on last because first all the member must be counted if we declared it in top then it always shows 0;
     
 }
