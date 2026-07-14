@@ -4,7 +4,7 @@ class person{
     private:
     string name;
     int age;
-    public:
+    public: //
     virtual void speak(){   //run in runtime if we dont declared virtual infront then it also runs in compile time 
         cout<<"i am person"<<endl;
     }
